@@ -68,14 +68,17 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ActiveBorder;
+            BackColor = Color.FromArgb(192, 192, 0);
             ClientSize = new Size(120, 74);
             Controls.Add(button);
             Controls.Add(display);
+            ForeColor = SystemColors.ControlText;
+            FormBorderStyle = FormBorderStyle.FixedToolWindow;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "Form1";
-            Text = "Form1";
+            ShowIcon = false;
+            Text = "Pomodoro";
             ResumeLayout(false);
         }
 
