@@ -44,7 +44,7 @@ namespace Pomodoro_Timer
             {
                 timer.Stop();
                 workMode = true;
-                workTimer = 1 * 60;
+                workTimer = 25 * 60;
                 updateDisplay(workTimer, workColor);
             }
             

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pomodoro_Timer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+790a0b9b237f358a331b0424ca78e07f50c474fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f0e3034671f58444d14a674de3c4bfe2d05e2ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pomodoro_Timer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pomodoro_Timer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
