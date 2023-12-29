@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pomodoro_Timer", "Pomodoro_Timer\Pomodoro_Timer.csproj", "{1EEF226B-C3E6-4C0B-A0D6-C0F20D61962B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pomodoro_Timer", "Pomodoro_Timer\Pomodoro_Timer.csproj", "{1EEF226B-C3E6-4C0B-A0D6-C0F20D61962B}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PomodoroSetup", "PomodoroSetup\PomodoroSetup.vdproj", "{7BC0D33D-CDE8-4366-B49E-03DFF32E333F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,8 @@ Global
 		{1EEF226B-C3E6-4C0B-A0D6-C0F20D61962B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EEF226B-C3E6-4C0B-A0D6-C0F20D61962B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EEF226B-C3E6-4C0B-A0D6-C0F20D61962B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BC0D33D-CDE8-4366-B49E-03DFF32E333F}.Debug|Any CPU.ActiveCfg = Debug
+		{7BC0D33D-CDE8-4366-B49E-03DFF32E333F}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,5 @@
+C:\Users\kanwa\Downloads\Pomodoro\Pomodoro_Timer.exe
+C:\Users\kanwa\Downloads\Pomodoro\Pomodoro_Timer.dll
+C:\Users\kanwa\Downloads\Pomodoro\Pomodoro_Timer.deps.json
+C:\Users\kanwa\Downloads\Pomodoro\Pomodoro_Timer.runtimeconfig.json
+C:\Users\kanwa\Downloads\Pomodoro\Pomodoro_Timer.pdb

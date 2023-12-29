@@ -1,0 +1,17 @@
+C:\Users\kanwa\Documents\CODE\MS Visual Studio\Pomodoro_Timer\Pomodoro_Timer\bin\Release\net8.0-windows\Pomodoro_Timer.exe
+C:\Users\kanwa\Documents\CODE\MS Visual Studio\Pomodoro_Timer\Pomodoro_Timer\bin\Release\net8.0-windows\Pomodoro_Timer.deps.json
+C:\Users\kanwa\Documents\CODE\MS Visual Studio\Pomodoro_Timer\Pomodoro_Timer\bin\Release\net8.0-windows\Pomodoro_Timer.runtimeconfig.json
+C:\Users\kanwa\Documents\CODE\MS Visual Studio\Pomodoro_Timer\Pomodoro_Timer\bin\Release\net8.0-windows\Pomodoro_Timer.dll
+C:\Users\kanwa\Documents\CODE\MS Visual Studio\Pomodoro_Timer\Pomodoro_Timer\bin\Release\net8.0-windows\Pomodoro_Timer.pdb
+C:\Users\kanwa\Documents\CODE\MS Visual Studio\Pomodoro_Timer\Pomodoro_Timer\obj\Release\net8.0-windows\Pomodoro_Timer.Form1.resources
+C:\Users\kanwa\Documents\CODE\MS Visual Studio\Pomodoro_Timer\Pomodoro_Timer\obj\Release\net8.0-windows\Pomodoro_Timer.csproj.GenerateResource.cache
+C:\Users\kanwa\Documents\CODE\MS Visual Studio\Pomodoro_Timer\Pomodoro_Timer\obj\Release\net8.0-windows\Pomodoro_Timer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kanwa\Documents\CODE\MS Visual Studio\Pomodoro_Timer\Pomodoro_Timer\obj\Release\net8.0-windows\Pomodoro_Timer.AssemblyInfoInputs.cache
+C:\Users\kanwa\Documents\CODE\MS Visual Studio\Pomodoro_Timer\Pomodoro_Timer\obj\Release\net8.0-windows\Pomodoro_Timer.AssemblyInfo.cs
+C:\Users\kanwa\Documents\CODE\MS Visual Studio\Pomodoro_Timer\Pomodoro_Timer\obj\Release\net8.0-windows\Pomodoro_Timer.csproj.CoreCompileInputs.cache
+C:\Users\kanwa\Documents\CODE\MS Visual Studio\Pomodoro_Timer\Pomodoro_Timer\obj\Release\net8.0-windows\Pomodoro_Timer.sourcelink.json
+C:\Users\kanwa\Documents\CODE\MS Visual Studio\Pomodoro_Timer\Pomodoro_Timer\obj\Release\net8.0-windows\Pomodoro_Timer.dll
+C:\Users\kanwa\Documents\CODE\MS Visual Studio\Pomodoro_Timer\Pomodoro_Timer\obj\Release\net8.0-windows\refint\Pomodoro_Timer.dll
+C:\Users\kanwa\Documents\CODE\MS Visual Studio\Pomodoro_Timer\Pomodoro_Timer\obj\Release\net8.0-windows\Pomodoro_Timer.pdb
+C:\Users\kanwa\Documents\CODE\MS Visual Studio\Pomodoro_Timer\Pomodoro_Timer\obj\Release\net8.0-windows\Pomodoro_Timer.genruntimeconfig.cache
+C:\Users\kanwa\Documents\CODE\MS Visual Studio\Pomodoro_Timer\Pomodoro_Timer\obj\Release\net8.0-windows\ref\Pomodoro_Timer.dll
