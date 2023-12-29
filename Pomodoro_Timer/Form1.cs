@@ -18,27 +18,30 @@ namespace Pomodoro_Timer
                 }
             }
             */
-
             Rectangle res = Screen.PrimaryScreen.Bounds;
             //this.Location = new Point(res.Bounds.Right - this.Width, res.Bounds.Top);
             this.Location = new Point(res.Right - Size.Width + 210);
 
-
+            //button.MouseEnter = OnMouseEnterButton1;
+            //this.button.MouseLeave += OnMouseLeaveButton1;
+            //this.button.Visible = false;
             InitializeComponent();
+
         }
-        
+
+
         int workTimer = 25 * 60;     // sec
         int breakTimer = 5 * 60;        // sec
         Boolean workMode = true;
-        Color formWorkColor = Color.FromArgb(192, 192, 0);
+        Color formWorkColor = Color.FromArgb(64, 64, 64);
         Color formBreakColor = Color.Pink;
-        
+
         Color resetColor = Color.FromArgb(128, 128, 255);
 
 
         private void button_Click(object sender, EventArgs e)
         {
-            
+
             resetAll();
             if (!timer.Enabled)
             {
@@ -51,7 +54,7 @@ namespace Pomodoro_Timer
             {
                 timer.Stop();
             }
-            
+
         }
 
         private void display_Click(object sender, EventArgs e)
@@ -77,19 +80,19 @@ namespace Pomodoro_Timer
             workMode = true;
             workTimer = 25 * 60;
             breakTimer = 5 * 60;
-            
+
             updateDisplay(workTimer);
             updateForm(resetColor);
         }
 
         private void timer_Tick(object sender, EventArgs e)
         {
-            
+
             if (workMode)
             {
                 updateForm(formWorkColor);
                 updateDisplay(workTimer);
-                
+
                 if (workTimer > 0)
                 {
                     workTimer--;
@@ -100,7 +103,7 @@ namespace Pomodoro_Timer
                     SoundPlayer sound = new SoundPlayer("C:\\Users\\kanwa\\Documents\\CODE\\MS Visual Studio\\Pomodoro_Timer\\Work_End.wav");
                     sound.Play();
                 }
-                
+
             }
             else
             {
@@ -116,10 +119,11 @@ namespace Pomodoro_Timer
                     SoundPlayer sound = new SoundPlayer("C:\\Users\\kanwa\\Documents\\CODE\\MS Visual Studio\\Pomodoro_Timer\\Break_End.wav");
                     sound.Play();
                     resetAll();
-                    
+
                 }
-                
+
             }
         }
+
     }
 }

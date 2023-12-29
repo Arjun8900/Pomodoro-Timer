@@ -39,6 +39,7 @@
             display.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             display.BackColor = Color.Transparent;
             display.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            display.ForeColor = SystemColors.AppWorkspace;
             display.Location = new Point(-5, 5);
             display.Margin = new Padding(4, 0, 4, 0);
             display.Name = "display";
