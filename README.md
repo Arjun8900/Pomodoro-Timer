@@ -16,7 +16,7 @@ A very simple pomodoro timer with Auto start break feature.
 
 
 ## Download  
-Exe file download from here. Only Portable Download are available: [Pomodoro Timer.exe](Pomodoro_Timer/bin/Debug/net8.0-windows/Pomodoro_Timer.exe)
+Exe file download from here. Only Portable Download are available: [Pomodoro Timer.exe](https://github.com/Arjun8900/Pomodoro-Timer/releases/download/v1.0.0/Pomodoro_Timer.exe)
 
 ## Sample
 ![Animation](https://github.com/Arjun8900/Pomodoro-Timer/assets/30146648/256e52e9-1b5c-44bb-b6e2-2f2e294672e5)

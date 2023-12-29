@@ -1,5 +1,6 @@
 using System.Media;
 
+
 namespace Pomodoro_Timer
 {
     public partial class Form1 : Form
@@ -64,7 +65,7 @@ namespace Pomodoro_Timer
 
         private void updateDisplay(int time)
         {
-            display.Text = (time >= 60) ? time / 60 + " Min" : time + " Sec";
+            display.Text = (time >= 60) ? Math.Ceiling(time / 60f) + " Min" : time + " Sec";
             //display.BackColor = color;
         }
 
@@ -101,6 +102,7 @@ namespace Pomodoro_Timer
                 {
                     workMode = false;
                     SoundPlayer sound = new SoundPlayer("C:\\Users\\kanwa\\Documents\\CODE\\MS Visual Studio\\Pomodoro_Timer\\Work_End.wav");
+                    
                     sound.Play();
                 }
 
