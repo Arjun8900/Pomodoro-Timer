@@ -21,21 +21,20 @@ namespace Pomodoro_Timer
 
             Rectangle res = Screen.PrimaryScreen.Bounds;
             //this.Location = new Point(res.Bounds.Right - this.Width, res.Bounds.Top);
-            this.Location = new Point(res.Right - Size.Width + 180);
+            this.Location = new Point(res.Right - Size.Width + 210);
 
 
             InitializeComponent();
         }
+        
         int workTimer = 25 * 60;     // sec
         int breakTimer = 5 * 60;        // sec
         Boolean workMode = true;
         Color formWorkColor = Color.FromArgb(192, 192, 0);
         Color formBreakColor = Color.Pink;
         
-        Color workColor = Color.FromArgb(192, 192, 0);
-        Color breakColor = Color.Pink;
+        Color resetColor = Color.FromArgb(128, 128, 255);
 
-        private const int CP_NOCLOSE_BUTTON = 0x200;
 
         private void button_Click(object sender, EventArgs e)
         {
@@ -43,6 +42,8 @@ namespace Pomodoro_Timer
             resetAll();
             if (!timer.Enabled)
             {
+                updateDisplay(workTimer);
+                updateForm(formWorkColor);
                 button.Text = "Reset";
                 timer.Start();
             }
@@ -58,10 +59,10 @@ namespace Pomodoro_Timer
 
         }
 
-        private void updateDisplay(int time, Color color)
+        private void updateDisplay(int time)
         {
-            display.Text = (time > 60) ? time / 60 + " Min" : time + " Sec";
-            display.BackColor = color;
+            display.Text = (time >= 60) ? time / 60 + " Min" : time + " Sec";
+            //display.BackColor = color;
         }
 
 
@@ -76,8 +77,9 @@ namespace Pomodoro_Timer
             workMode = true;
             workTimer = 25 * 60;
             breakTimer = 5 * 60;
-            updateDisplay(workTimer, workColor);
-            updateForm(formWorkColor);
+            
+            updateDisplay(workTimer);
+            updateForm(resetColor);
         }
 
         private void timer_Tick(object sender, EventArgs e)
@@ -86,7 +88,7 @@ namespace Pomodoro_Timer
             if (workMode)
             {
                 updateForm(formWorkColor);
-                updateDisplay(workTimer, workColor);
+                updateDisplay(workTimer);
                 
                 if (workTimer > 0)
                 {
@@ -103,7 +105,7 @@ namespace Pomodoro_Timer
             else
             {
                 updateForm(formBreakColor);
-                updateDisplay(breakTimer, breakColor);
+                updateDisplay(breakTimer);
                 if (breakTimer > 0)
                 {
                     breakTimer--;

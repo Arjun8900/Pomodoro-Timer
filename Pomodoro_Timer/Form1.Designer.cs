@@ -37,11 +37,12 @@
             // display
             // 
             display.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            display.BackColor = Color.FromArgb(192, 192, 0);
+            display.BackColor = Color.Transparent;
             display.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            display.Location = new Point(12, 9);
+            display.Location = new Point(-5, 5);
+            display.Margin = new Padding(4, 0, 4, 0);
             display.Name = "display";
-            display.Size = new Size(96, 24);
+            display.Size = new Size(90, 27);
             display.TabIndex = 0;
             display.Text = "25 Min";
             display.TextAlign = ContentAlignment.TopCenter;
@@ -50,10 +51,11 @@
             // button
             // 
             button.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            button.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button.Location = new Point(23, 45);
+            button.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button.Location = new Point(12, 35);
+            button.Margin = new Padding(4, 3, 4, 3);
             button.Name = "button";
-            button.Size = new Size(68, 27);
+            button.Size = new Size(62, 23);
             button.TabIndex = 1;
             button.Text = "Start";
             button.UseVisualStyleBackColor = true;
@@ -68,16 +70,18 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(192, 192, 0);
-            ClientSize = new Size(120, 74);
+            BackColor = Color.FromArgb(128, 128, 255);
+            ClientSize = new Size(86, 61);
             Controls.Add(button);
             Controls.Add(display);
             ForeColor = SystemColors.ControlText;
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
+            Margin = new Padding(4, 3, 4, 3);
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "Form1";
             ShowIcon = false;
+            StartPosition = FormStartPosition.Manual;
             Text = "Pomodoro";
             ResumeLayout(false);
         }
